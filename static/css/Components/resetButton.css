@@ -1,0 +1,17 @@
+.resetButton{
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(170, 170, 255);
+    display: block;
+    box-shadow: 0 0 8px #888;
+    margin: 2.5rem auto;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.resetButton:hover{
+    box-shadow: 0 0 15px #888;
+    cursor: pointer;
+    background-color: rgb(227, 172, 152);
+}

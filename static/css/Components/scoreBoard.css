@@ -1,0 +1,35 @@
+.scoreBoard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    width: 24rem;
+    /* height: 2em; */
+    margin: 3rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px #888;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.score{
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.score.X{
+    border-bottom: 0.5rem solid orangered;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.score.O{
+    border-bottom: 0.5rem solid blue;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.score.inActive{
+    border-bottom: 0.5rem solid transparent;
+}
